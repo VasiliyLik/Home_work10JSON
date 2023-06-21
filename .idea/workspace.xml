@@ -4,14 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c4390004-6f13-44e1-9635-0fad59e7933b" name="Changes" comment="Add created Classes">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/gson/PatientSerializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/gson/PatientSerializer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/jackson/CreateJsonFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/jackson/CreateJsonFile.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/jackson/JacksonTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/jackson/JacksonTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/model/Patient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/Patient.java" afterDir="false" />
-    </list>
+    <list default="true" id="c4390004-6f13-44e1-9635-0fad59e7933b" name="Changes" comment="Решение задачи!" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -26,6 +19,12 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--tags" />
+        <option name="title" value="All" />
+      </GitPushTagMode>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -42,14 +41,14 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.repository.indices&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="gson" />
@@ -134,7 +133,28 @@
       <option name="project" value="LOCAL" />
       <updated>1687377242240</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Решение задачи">
+      <created>1687383319299</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1687383319299</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Решение задачи!">
+      <created>1687383739139</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1687383739139</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Решение задачи!">
+      <created>1687461166683</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1687461166683</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -150,6 +170,9 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Add created Classes" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add created Classes" />
+    <MESSAGE value="Решение задачи" />
+    <MESSAGE value="Корректировка решения - исправлена возможность заполнения базы пациентов" />
+    <MESSAGE value="Решение задачи!" />
+    <option name="LAST_COMMIT_MESSAGE" value="Решение задачи!" />
   </component>
 </project>

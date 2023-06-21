@@ -1,0 +1,38 @@
+[
+  {
+    "name": "Ru",
+    "surName": "Den",
+    "birthDate": "18-11-1971",
+    "health": "unhealthy"
+  },
+  {
+    "name": "Zack",
+    "surName": "Boom",
+    "birthDate": "30-11-1972",
+    "health": "unhealthy"
+  },
+  {
+    "name": "Sara",
+    "surName": "Cortny",
+    "birthDate": "18-01-1985",
+    "health": "unhealthy"
+  },
+  {
+    "name": "Oli",
+    "surName": "Parker",
+    "birthDate": "29-03-1989",
+    "health": "unhealthy"
+  },
+  {
+    "name": "Molly",
+    "surName": "Fiji",
+    "birthDate": "21-12-1993",
+    "health": "unhealthy"
+  },
+  {
+    "name": "Ben",
+    "surName": "Archi",
+    "birthDate": "13-03-1994",
+    "health": "unhealthy"
+  }
+]
