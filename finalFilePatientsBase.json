@@ -1,0 +1,26 @@
+[
+  {
+    "name": "Zack",
+    "surName": "Boom",
+    "birthDate": "30-11-1972",
+    "health": "unhealthy"
+  },
+  {
+    "name": "Sara",
+    "surName": "Cortny",
+    "birthDate": "18-01-1985",
+    "health": "unhealthy"
+  },
+  {
+    "name": "Nick",
+    "surName": "Night",
+    "birthDate": "23-05-1986",
+    "health": "unhealthy"
+  },
+  {
+    "name": "Ben",
+    "surName": "Archi",
+    "birthDate": "13-03-1994",
+    "health": "unhealthy"
+  }
+]

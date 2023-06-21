@@ -1,0 +1,16 @@
+[ {
+  "name" : "Zack",
+  "surName" : "Boom",
+  "birthDate" : "30-11-1972",
+  "health" : "unHealthy"
+}, {
+  "name" : "Sara",
+  "surName" : "Cortny",
+  "birthDate" : "18-01-1985",
+  "health" : "unHealthy"
+}, {
+  "name" : "Ben",
+  "surName" : "Archi",
+  "birthDate" : "13-03-1994",
+  "health" : "healthy"
+} ]
