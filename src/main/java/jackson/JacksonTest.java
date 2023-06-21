@@ -7,5 +7,8 @@ public class JacksonTest {
     public static void main(String[] args) throws IOException, ParseException {
         CreateJsonFile jsonFile = new CreateJsonFile();
         jsonFile.createPatientsJsonlFile();
+        GitHubFileActions fileActions = new GitHubFileActions();
+        fileActions.deserializeFileFromGitHub();
+        fileActions.createLocalFileFromGitHub();
     }
 }

@@ -13,10 +13,10 @@ public class PatientSerializer implements JsonSerializer<Patient> {
     public JsonElement serialize(Patient src, Type type, JsonSerializationContext context) {
         JsonObject result = new JsonObject();
 
-        result.addProperty("name", src.getName()); //закоментил чтобы в файле убрать общий заголовок: "patients":
-        result.addProperty("surName", src.getSurName());
-        result.add("birthDate", context.serialize(src.getBirthDate()));
-        result.add("health", context.serialize(src.isHealth()));
+        result.addProperty("name", src.name()); //закоментил чтобы в файле убрать общий заголовок: "patients":
+        result.addProperty("surName", src.surName());
+        result.add("birthDate", context.serialize(src.birthDate()));
+        result.add("health", context.serialize(src.health()));
         return result;
     }
 }

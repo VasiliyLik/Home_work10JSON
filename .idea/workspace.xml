@@ -4,9 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c4390004-6f13-44e1-9635-0fad59e7933b" name="Changes" comment="">
+    <list default="true" id="c4390004-6f13-44e1-9635-0fad59e7933b" name="Changes" comment="Add created Classes">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/gson/PatientSerializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/gson/PatientSerializer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/jackson/CreateJsonFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/jackson/CreateJsonFile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/jackson/JacksonTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/jackson/JacksonTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/model/Patient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/Patient.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,6 +20,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -25,6 +30,9 @@
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectId" id="2RWoNYvpo0g2xdF79YQZ02WwJ5R" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -38,21 +46,62 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true"
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices"
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="gson" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="model" />
       <recent name="gson" />
     </key>
   </component>
-  <component name="RunManager">
-    <configuration name="JacksonTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Application.FinalTest">
+    <configuration name="CreatePatientFromConsole" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="gson.CreatePatientFromConsole" />
+      <module name="MyHomeWork10JSON" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="gson.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FinalTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="FinalTest" />
+      <module name="MyHomeWork10JSON" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GsonTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="gson.GsonTest" />
+      <module name="MyHomeWork10JSON" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="gson.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="jackson.JacksonTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="jackson.JacksonTest" />
       <module name="MyHomeWork10JSON" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="jackson.*" />
+          <option name="PATTERN" value=".*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -62,7 +111,10 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.JacksonTest" />
+        <item itemvalue="Application.FinalTest" />
+        <item itemvalue="Application.CreatePatientFromConsole" />
+        <item itemvalue="Application.GsonTest" />
+        <item itemvalue="Application.jackson.JacksonTest" />
       </list>
     </recent_temporary>
   </component>
@@ -75,6 +127,14 @@
       <option name="presentableId" value="Default" />
       <updated>1687375161327</updated>
     </task>
+    <task id="LOCAL-00001" summary="Add created Classes">
+      <created>1687377242240</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1687377242240</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -87,5 +147,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Add created Classes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add created Classes" />
   </component>
 </project>

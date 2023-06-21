@@ -17,17 +17,16 @@ public class CreateJsonFile {
         String pattern = "dd-MM-yyyy";
         SimpleDateFormat simpleDateFormat = new SimpleDateFormat(pattern);
         Date date = simpleDateFormat.parse("19-01-1985");
-        Patient patient = new Patient("Sara", "Cortny", date, false);
+        final Patient patient = new Patient("Sara", "Cortny", date, false);
         date = simpleDateFormat.parse("01-12-1972");
-        Patient patient2 = new Patient("Zack", "Boom", date, false);
+        final Patient patient2 = new Patient("Zack", "Boom", date, false);
         date = simpleDateFormat.parse("14-03-1994");
-        Patient patient3 = new Patient("Ben", "Archi", date, true);
+        final Patient patient3 = new Patient("Ben", "Archi", date, true);
         ArrayList<Patient> patientArrayList = new ArrayList<>();
         patientArrayList.add(patient);
         patientArrayList.add(patient2);
         patientArrayList.add(patient3);
 
-      //  System.out.println(patientArrayList);
         SimpleModule module = new SimpleModule();
         module.addSerializer(Boolean.class, new BooleanHealthySerializer());
         String jsonLocalFile = objectMapper.writerWithDefaultPrettyPrinter().writeValueAsString(patientArrayList);
