@@ -11,7 +11,10 @@ import java.util.*;
 public class CreateFinalPatientsBase {
     static Patient[] patients;
     static Patient[] patients2;
+<<<<<<< HEAD
     static Patient[] patients3;
+=======
+>>>>>>> origin/main
 
     public void readtemporaryFile() {
         File file = new File("jacksonfileFromGitHub.json");
@@ -19,7 +22,11 @@ public class CreateFinalPatientsBase {
             GsonBuilder gsonBuilder = new GsonBuilder();
             gsonBuilder.registerTypeAdapter(Date.class, new DateBirthdateDeserializer());
             gsonBuilder.registerTypeAdapter(Boolean.class, new BooleanHealthyDeserializer());
+<<<<<<< HEAD
             Gson gson = gsonBuilder.setPrettyPrinting().create();
+=======
+            Gson gson = gsonBuilder.setPrettyPrinting().create();//setDateFormat("dd-MM-yyyy").
+>>>>>>> origin/main
 
             patients = gson.fromJson(reader, Patient[].class);
 
@@ -36,7 +43,11 @@ public class CreateFinalPatientsBase {
             GsonBuilder gsonBuilder = new GsonBuilder();
             gsonBuilder.registerTypeAdapter(Date.class, new DateBirthdateDeserializer());
             gsonBuilder.registerTypeAdapter(Boolean.class, new BooleanHealthyDeserializer());
+<<<<<<< HEAD
             Gson gson = gsonBuilder.setPrettyPrinting().create();
+=======
+            Gson gson = gsonBuilder.setPrettyPrinting().create();//setDateFormat("dd-MM-yyyy").
+>>>>>>> origin/main
 
             patients2 = gson.fromJson(reader, Patient[].class);
 
@@ -47,7 +58,11 @@ public class CreateFinalPatientsBase {
         }
     }
 
+<<<<<<< HEAD
     public void createBuferBase() {
+=======
+    public void createFinalBase() {
+>>>>>>> origin/main
         ArrayList<Patient> base = new ArrayList<>();
         base.addAll(List.of(patients));
         base.addAll(List.of(patients2));
@@ -55,7 +70,11 @@ public class CreateFinalPatientsBase {
         TreeSet<Patient> set = new TreeSet<>(base);
         System.out.println(set);
 
+<<<<<<< HEAD
         String filePath = "buferFilePatientsBase.json";
+=======
+        String filePath = "finalFilePatientsBase.json";
+>>>>>>> origin/main
         try (PrintWriter printWriter = new PrintWriter(new FileWriter(filePath))) {
             GsonBuilder gsonBuilder = new GsonBuilder();
             gsonBuilder.registerTypeAdapter(Boolean.class, new BooleanHealthySerializer());
@@ -68,6 +87,7 @@ public class CreateFinalPatientsBase {
             throw new RuntimeException(e);
         }
     }
+<<<<<<< HEAD
 
     public void createFinalPatientsBase() {
         File file = new File("finalPatientsBase.json");
@@ -105,4 +125,6 @@ public class CreateFinalPatientsBase {
         }
 
     }
+=======
+>>>>>>> origin/main
 }
