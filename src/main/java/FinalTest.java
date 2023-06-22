@@ -3,6 +3,7 @@ public class FinalTest {
         CreateFinalPatientsBase patientsBase = new CreateFinalPatientsBase();
         patientsBase.readtemporaryFile();
         patientsBase.readLocalConsolePatientFile();
-        patientsBase.createFinalBase();
+        patientsBase.createBuferBase();
+        patientsBase.createFinalPatientsBase();
     }
 }
